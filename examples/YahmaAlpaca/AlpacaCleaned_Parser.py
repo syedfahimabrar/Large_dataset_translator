@@ -21,7 +21,7 @@ class AlpacaCleaned(DataParser):
                          target_fields=['question_text', 'orig_answer_texts'],   # The data fields to be translated (The fields belong to BaseConfig)
                          do_translate=True,
                          no_translated_code=True,
-                         target_lang="vi")
+                         target_lang="bn")
 
     # Read function must assign data that has been read to self.data_read
     def read(self) -> None:
